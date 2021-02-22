@@ -1,0 +1,9 @@
+#Calulate the area of any circle in centimeters using a radius inputed by a user
+#The area of circle is equal to pi multiplied by the square of its radius
+
+
+user_input = float(input('What is the radius of your circle in cm?\n >>> '))
+radius = user_input
+pi = 3.14159
+area = pi * radius**2
+print (int(area))
