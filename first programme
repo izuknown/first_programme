@@ -6,4 +6,4 @@ user_input = float(input('What is the radius of your circle in cm?\n >>> '))
 radius = user_input
 pi = 3.14159
 area = pi * radius**2
-print (int(area))
+print ('For your radius of', radius,'cm. The are of your circle is', area,'cm' )
